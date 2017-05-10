@@ -1,3 +1,6 @@
+
+
+
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
@@ -8,14 +11,20 @@
 }
 
 .image-bg-fluid-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+	background: url('../images/background.jpg') no-repeat center center scroll;
     padding: 100px 0;
 }
 
 .image-bg-fixed-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+	background: url('../images/background.jpg') no-repeat center center scroll;
     height: 450px;
 }
+
+.navbar-default .navbar-brand {
+    font-size: 28px;
+    color: #9999ff;
+}
+
 
 .img-center {
 	margin: 0 auto;
@@ -32,15 +41,59 @@ section {
 
 .section-lead {
     margin: 30px 0;
+    color: #9999ff;
 }
 
 .section-paragraph {
     margin: 30px 0;
 }
 
-footer {
-    margin: 0px 0;
+/*portfolio.html content*/
+.portfolio-item {
+    margin-bottom: 25px;
 }
+
+.page-header {
+    color: #9999ff;
+}
+
+.col-md-4 ul li span {
+    color: #9999ff;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.header {
+    color: #9999ff;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #9999ff;
+}
+
+.btn {
+    background-color: #9999ff;
+}
+
+/*footer*/
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: lightgrey;
+}
+
+#contact-body {
+    margin-bottom: 75px;
+}
+
+
 
 @media(max-width:768px) {
     section {
